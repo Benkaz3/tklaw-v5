@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  title: "Mẫu Bắt Đầu Tốt Nhất Bạn Cần Để Bắt Đầu Dự Án Hugo Của Mình"
-  content: "Hugoplate là một mẫu bắt đầu miễn phí được xây dựng với Hugo và TailwindCSS, cung cấp mọi thứ bạn cần để khởi động dự án Hugo của mình và tiết kiệm thời gian quý báu."
+  title: "TK & Associates giải pháp pháp lý ưu việt"
+  content: "Văn phòng do Luật sư Khương Đình Tiến - Trưởng văn phòng chịu trách nhiệm quản lý và điều hành. Với đội ngũ luật sư nhiều kinh nghiệm và tận tâm, chúng tôi hoạt động trong các lĩnh vực như tham gia tố tụng, tư vấn pháp luật, thực hiện các dịch vụ pháp lý khác theo quy định của pháp luật."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Bắt Đầu Miễn Phí"
+    label: "Liên hệ với chúng tôi"
     link: "https://github.com/zeon-studio/hugoplate"
 
 # Features

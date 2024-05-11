@@ -1,10 +1,10 @@
 ############# English navigation ##############
 
 # main menu
-[[main]]
-name = "Home"
-pageRef = "/"
-weight = 1
+# [[main]]
+# name = "Home"
+# pageRef = "/"
+# weight = 1
 
 [[main]]
 name = "About"
@@ -12,38 +12,23 @@ pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Services"
 pageRef = "/elements"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "More"
 
 [[main]]
-parent = "Pages"
+parent = "More"
 name = "Blog"
 pageRef = "/blog"
 
 [[main]]
-parent = "Pages"
+parent = "More"
 name = "Contact"
 pageRef = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-pageRef = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-pageRef = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-pageRef = "/404"
 
 
 # footer menu

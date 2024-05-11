@@ -1,63 +1,49 @@
 ############# English navigation ##############
 
 # main menu
-[[main]]
-name = "Home"
-pageRef = "/"
-weight = 1
+# [[main]]
+# name = "Home"
+# pageRef = "/"
+# weight = 1
 
 [[main]]
-name = "About"
+name = "Giới thiệu"
 pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Dịch vụ"
 pageRef = "/elements"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Xem thêm"
 
 [[main]]
-parent = "Pages"
+parent = "Xem thêm"
 name = "Blog"
 pageRef = "/blog"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
+parent = "Xem thêm"
+name = "Liên hệ"
 pageRef = "/contact"
 
-[[main]]
-parent = "Pages"
-name = "Authors"
-pageRef = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-pageRef = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-pageRef = "/404"
 
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Giới thiệu"
 pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
+name = "Dịch vụ"
 pageRef = "/elements"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
+name = "Bảo mật"
 pageRef = "/privacy-policy"
 weight = 3
