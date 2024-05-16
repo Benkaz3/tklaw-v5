@@ -509,11 +509,6 @@ button.swiper-pagination-bullet {
 .swiper-lazy-preloader {
   width: 42px;
   height: 42px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -21px;
-  margin-top: -21px;
   z-index: 10;
   transform-origin: 50%;
   box-sizing: border-box;
