@@ -25,11 +25,30 @@
       clickable: true,
     },
     breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-      992: {
+      360: {
         slidesPerView: 3,
+      },
+      576: {
+        slidesPerView: 5,
+      },
+    },
+  });
+  // Client Slider
+  // ----------------------------------------
+  new Swiper(".client-slider", {
+    spaceBetween: 24,
+    loop: true,
+    pagination: {
+      el: ".client-slider-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+    breakpoints: {
+      360: {
+        slidesPerView: 3,
+      },
+      576: {
+        slidesPerView: 5,
       },
     },
   });
