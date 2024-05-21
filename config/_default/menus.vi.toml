@@ -12,9 +12,23 @@ pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Dịch vụ"
-pageRef = "/elements"
+name = "Lĩnh vực hoạt động"
 weight = 3
+
+[[main]]
+parent = "Lĩnh vực hoạt động"
+name = "Tư vấn luật"
+pageRef = "/legal-consulting"
+
+[[main]]
+parent = "Lĩnh vực hoạt động"
+name = "Tham gia tố tụng"
+pageRef = "/litigation-service"
+
+[[main]]
+parent = "Lĩnh vực hoạt động"
+name = "Dịch vụ pháp lý"
+pageRef = "/legal-service"
 
 [[main]]
 weight = 4
@@ -39,8 +53,8 @@ pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Dịch vụ"
-pageRef = "/elements"
+name = "Liên hệ"
+pageRef = "/contact"
 weight = 2
 
 [[footer]]

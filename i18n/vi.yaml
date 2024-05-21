@@ -1,0 +1,41 @@
+- id: home
+  translation: Trang chủ
+
+- id: read_more
+  translation: Đọc thêm
+
+- id: send
+  translation: Gửi
+
+- id: related_posts
+  translation: Bài liên quan
+
+- id: categories
+  translation: Mục
+
+- id: tags
+  translation: Tags
+
+- id: toc
+  translation: Nội dung
+
+- id: share
+  translation: Chia sẻ
+
+- id: search_input_placeholder
+  translation: Tìm kiếm bài viết...
+
+- id: search_no_results
+  translation: Không có kết quả cho từ khoá
+
+- id: search_initial_message
+  translation: Nhập để tìm kiếm...
+
+- id: search_navigate
+  translation: to navigate
+
+- id: search_select
+  translation: to select
+
+- id: search_close
+  translation: to close

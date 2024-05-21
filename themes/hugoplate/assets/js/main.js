@@ -36,7 +36,7 @@
   // Client Slider
   // ----------------------------------------
   new Swiper(".client-slider", {
-    spaceBetween: 24,
+    spaceBetween: 48,
     loop: true,
     pagination: {
       el: ".client-slider-pagination",
@@ -45,10 +45,10 @@
     },
     breakpoints: {
       360: {
-        slidesPerView: 3,
+        slidesPerView: 5,
       },
       576: {
-        slidesPerView: 5,
+        slidesPerView: 10,
       },
     },
   });
