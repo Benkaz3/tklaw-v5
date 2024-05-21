@@ -1,7 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Superior legal solutions"
+  title1: "Adept insights"
+  title2: "Compelling solutions"
   subheading: "A Brief Introduction"
   heading: "TK & Associates"
   content: "The office led by Lawyer Khương Đình Tiến - Office Manager is responsible for management and operation. With a team of experienced and dedicated lawyers, we operate in areas such as litigation, legal consulting, and other legal services as required by law."

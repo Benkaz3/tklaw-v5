@@ -5,7 +5,9 @@
   <div class="col-12 relative flex items-center justify-center pb-14">
     {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" ) }}
     <h1 class="absolute text-center text-white text-h3 lg:text-h1 shadow">
-      {{ .title | markdownify }}
+      {{ .title1 | markdownify }}
+      <br>
+      {{ .title2 | markdownify }}
     </h1>
   </div>
   <div class="container">
@@ -35,6 +37,36 @@
 </section>
 {{ end }}
 <!-- /Banner -->
+
+<!-- Practices -->
+{{ with site.GetPage "sections/expertise" }}
+{{ if .Params.enable }}
+<section class="section-sm bg-gradient">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-7 md:col-9 mb-8 text-center">
+        <p>
+          {{ .Params.subheading | markdownify }}
+        </p>
+        <h1 class="mb-4">
+          {{ .Title | markdownify }}
+        </h1>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center mx-auto">
+      {{ range .Params.practices }}
+      <div class=" text-center">
+        {{ partial "image" (dict "Src" .image "Alt" .name "Class" "mx-auto mb-6 rounded" "AspectRatio" "599/317") }}
+        <h2 class="h6 mb-3">{{ .name }}</h2>
+        <p class="mb-6">{{ .description | truncate 140 "..." }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Practices -->
 
 <!-- Clients -->
 {{ with site.GetPage "sections/client" }}
