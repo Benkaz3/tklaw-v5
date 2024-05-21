@@ -1,10 +1,10 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ with .Params.banner }}
-<section class="section pt-14">
-  <div class="col-12 relative flex items-center justify-center pb-14">
-    {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" ) }}
-    <h1 class="absolute text-center text-white text-h3 lg:text-h1 shadow">
+<section class="section p-0">
+  <div class="relative flex items-center justify-center">
+    {{ partial "image" (dict "Src" .image "Alt" "image" "Loading" "eager" "Class" "" ) }}
+    <h1 class="absolute text-center text-white text-h3 lg:text-h1 shadow-lg">
       {{ .title1 | markdownify }}
       <br>
       {{ .title2 | markdownify }}
@@ -12,7 +12,7 @@
   </div>
   <div class="container">
     <div class="row justify-center">
-      <div class="lg:col-7 md:col-9 mb-8 text-center">
+      <div class="lg:col-7 md:col-9 m-8 text-center">
         <p class="mb-2">
           {{ .subheading | markdownify }}
         </p>
@@ -55,7 +55,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center mx-auto">
       {{ range .Params.practices }}
-      <div class=" text-center">
+      <div class=" text-center ">
         {{ partial "image" (dict "Src" .image "Alt" .name "Class" "mx-auto mb-6 rounded" "AspectRatio" "599/317") }}
         <h2 class="h6 mb-3">{{ .name }}</h2>
         <p class="mb-6">{{ .description | truncate 140 "..." }}</p>

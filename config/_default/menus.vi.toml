@@ -19,16 +19,19 @@ weight = 3
 parent = "Lĩnh vực hoạt động"
 name = "Tư vấn luật"
 pageRef = "/legal-consulting"
+weight = 1
 
 [[main]]
 parent = "Lĩnh vực hoạt động"
 name = "Tham gia tố tụng"
 pageRef = "/litigation-service"
+weight = 2
 
 [[main]]
 parent = "Lĩnh vực hoạt động"
 name = "Dịch vụ pháp lý"
 pageRef = "/legal-service"
+weight = 3
 
 [[main]]
 weight = 4
