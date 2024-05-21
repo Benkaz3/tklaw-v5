@@ -6,7 +6,7 @@ banner:
   subheading: "Giới thiệu"
   heading: "TK & Associates"
   content: "Văn phòng do Luật sư Khương Đình Tiến - Trưởng văn phòng chịu trách nhiệm quản lý và điều hành. Với đội ngũ luật sư nhiều kinh nghiệm và tận tâm, chúng tôi hoạt động trong các lĩnh vực như tham gia tố tụng, tư vấn pháp luật, thực hiện các dịch vụ pháp lý khác theo quy định của pháp luật."
-  image: "/images/banner02.png"
+  image: "/images/banner.png"
   button:
     enable: true
     label: "Liên hệ với chúng tôi"
