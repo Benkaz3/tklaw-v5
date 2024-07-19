@@ -48,7 +48,7 @@
   </section>
 
   <!-- google map -->
-  {{ with site.Params.google_map }}
+  {{/*  {{ with site.Params.google_map }}
     {{ if .enable }}
       <div
         id="map"
@@ -58,7 +58,28 @@
         data-marker="{{ .map_marker | relURL }}"
         data-marker-name="{{ site.Title }}"></div>
     {{ end }}
-  {{ end }}
+  {{ end }}  */}}
+  <!-- /google map -->
+
+<!-- google map iFrame -->
+  <div>
+    {{/*  <iframe
+          src="https://storage.googleapis.com/maps-solutions-kbwe929p8y/commutes/2di5/commutes.html"
+          width="100%" height="100%"
+          style="border:0;"
+          loading="lazy">
+        </iframe>  */}}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.291526519781!2d106.69697390992356!3d10.788969489316221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f35548ebbed%3A0x53800e03a8b9b2e!2zNjAgTmd1eeG7hW4gxJDDrG5oIENoaeG7g3UsIMSQYSBLYW8sIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1721367045810!5m2!1sen!2s"
+          width="100%"
+          height="450" style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+  </div>
+  <!-- /google map iFrame -->
+ 
 
   {{ with site.Params.subscription }}
     {{ if .enable }}
