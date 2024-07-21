@@ -55,11 +55,20 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center mx-auto">
       {{ range .Params.practices }}
-      <div class=" text-center ">
-        {{ partial "image" (dict "Src" .image "Alt" .name "Class" "mx-auto mb-6 rounded" "AspectRatio" "599/317") }}
-        <h2 class="h6 mb-3">{{ .name }}</h2>
-        <p class="mb-6">{{ .description | truncate 140 "..." }}</p>
-      </div>
+        <div class=" text-center ">
+          {{ partial "image" (dict "Src" .image "Alt" .name "Class" "mx-auto mb-6 rounded" "AspectRatio" "599/317") }}
+          <h2 class="h6 mb-3">{{ .name }}</h2>
+          <p class="mb-6">{{ .description | truncate 140 "..." }}</p>
+          {{ with .button }}
+          {{ if .enable }}
+          <a class="btn btn-outline-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"
+            rel="noopener" {{ end }}>
+            {{ .label }}
+            <i class="fa fa-arrow-right pl-2"></i>
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
       {{ end }}
     </div>
   </div>
